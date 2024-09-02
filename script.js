@@ -1,6 +1,6 @@
 let element = document.querySelector('span');
 let btn1 = document.querySelector('.btn1');
-let btn2 = document.querySelector('.btn2'); // I assume you meant btn2, not btn12
+let btn2 = document.querySelector('.btn2');
 
 btn2.addEventListener('click', function () {
     gsap.to(element, {
